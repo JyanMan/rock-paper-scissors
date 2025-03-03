@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 400px;
+    background-color: hsl(0, 0, 85%);
+}
+
+#btn_container {
+    width: 500px;
+    height: 60px;
+    background-color: hsl(200, 80%, 85%);
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+}
+
+.btns {
+    position: absolute;
+    display: inline-block;
+}
+
+.btns:hover {
+    background-color: hsl(220, 75%, 40%);
+    cursor: pointer;
+}
+
+
+
+
+
