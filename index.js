@@ -67,6 +67,7 @@ function getResult(player) {
             }
             else if (player == "scissors") {
                 result = "player";
+                
             }
             break;
         case "scissors":
